@@ -41,6 +41,8 @@ const ProductPage = ({ product }) => {
           property="og:image"
           content={product.image}
         />
+        <meta property='og:image:width' content='250' />
+        <meta property='og:image:height' content='141' />
       </Head>
       <div className="bg-black min-h-screen">
         <div className="w-full h-[10%] flex justify-center">
