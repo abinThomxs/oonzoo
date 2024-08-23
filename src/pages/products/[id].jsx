@@ -25,23 +25,14 @@ const ProductPage = ({ product }) => {
           }
           type="image/x-icon"
         />
-        <meta name="title" content={product.title} />
-        <meta name="description" content={product.description} />
-        <meta key="og:type" property="og:type" content={"website"} />
-        <meta key="og:title" property="og:title" content={product.title} />
-        <meta
-          key="og:description"
-          property="og:description"
-          content={product.description}
-        />
-        <meta
-          key="og:url"
-          property="og:url"
-          content={`https://products.oonzoo.com/products/${product.id}`}
-        />
-        <meta key="og:image" property="og:image" content={product.image} />
-        <meta property="og:image:width" content="250" />
-        <meta property="og:image:height" content="141" />
+       <meta name='description' content={product?.description} />
+        <meta name='og:title' content={product?.title} />
+        <meta name='og:description' content={product?.description} />
+        <meta name='og:image' content={product?.image} />
+
+        <meta property='og:type' content='website' />
+        <meta property='og:image:width' content='250' />
+        <meta property='og:image:height' content='141' />
       </Head>
       <div className="bg-black min-h-screen">
         <div className="w-full h-[10%] flex justify-center">
