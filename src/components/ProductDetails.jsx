@@ -10,7 +10,7 @@ const ProductDetails = (product) => {
     <div>
       <div className="flex flex-col lg:flex-row justify-center w-full pt-8 lg:pt-16 px-4 lg:px-0 pb-10">
         <div className="lg:w-[70%] bg-white rounded-lg p-5 flex flex-col lg:flex-row justify-around items-center lg:items-start">
-          <div className="w-full lg:w-auto">
+          <div className="w-full lg:w-auto flex justify-center">
             <Image
               src={product.product.image}
               alt="product image"
